@@ -1,0 +1,230 @@
+*
+{
+  margin:0%;
+  padding:0%;
+}
+
+body
+{
+  background-color:rgb(255,255,255);
+ font-family:"Microsoft JhengHei Light";
+ 
+}
+
+header
+{
+  background-image:-webkit-linear-gradient(22.5deg,rgb(26,26,72),rgb(17,170,200));
+}
+
+#heading
+{
+  width:15%;
+  text-align:center;
+  margin:0 auto;
+  padding:2.5% 0% 2.5% 0%;
+  font-size:300%;
+  color:rgb(0,0,0);
+}
+
+.sub_head
+{
+  width:25%;
+  text-align:center;
+  margin:3% auto;
+  font-size:250%;
+  font-weight:bold;
+  color:rgb(0,0,0);
+  
+}
+
+form
+{
+  width:25%;
+  text-align:center;
+  margin:0 auto 1% auto;
+  background-color: rgb(255,255,255);
+  /*background-image:-webkit-linear-gradient(bottom,rgb(255,255,255),rgb(200,200,200));*/
+  padding:2%;
+  /*order:solid rgb(0,0,0);*/
+  border:none;
+  border-width:1px 1px 1px 1px;
+  border-radius:10px 10px 10px 10px;
+  box-shadow:1px 1px 20px 0px grey;
+}
+
+.inp_f
+{
+	margin:3%;
+}
+
+#username,#pwd,#name,#email_id_signup,#pwd_signup,#security_ques,#security_ans,#security_ansx,#new_pass,#confirm_new_pass
+{
+  width:80%;
+  padding:1.5%;
+  margin:2%;
+  border:solid;
+  border-width:0px 0px 1px 0px;
+  text-align:center;
+  font-size:120%;
+  color:rgb(110,110,110);
+}
+
+#username:focus,textarea,#pwd:focus,textarea,#name:focus,textarea,#email_id_signup:focus,textarea,#pwd_signup:focus,textarea,#security_ques:focus,textarea,#security_ans:focus,textarea,#security_ansx:focus,textarea,#new_pass:focus,textarea,#confirm_new_pass:focus,textarea
+{
+  outline:none !important;
+}
+
+form p
+{
+  font-size:120%;
+  color:rgb(0,0,0);
+  font-weight:bold;
+}
+
+#signup_link
+{
+  position:relative;
+  top:60px;
+  color:tomato;
+  font-size:100%;
+}
+
+.submit
+{
+  margin:10%;
+  background-image:-webkit-linear-gradient(45deg,rgb(26,26,72),rgb(17,170,200));
+  width:40%;
+  padding:3%;
+  color:rgb(255,255,255);
+  font-size:120%;
+  border:none;
+  cursor:pointer;
+  border-radius:40px;
+  transition:box-shadow 300ms;
+}
+
+.submit:hover
+{
+  /*border-radius:45px;*/
+  box-shadow:1px 1px 8px 0px grey;
+}
+
+.submit:focus,textarea
+{
+  outline:none;
+}
+
+#signup_link a
+{
+  color:rgb(0,72,32);
+  text-decoration:none;
+}
+
+.submit_signup
+{
+	margin:5%;
+  	background-image:-webkit-linear-gradient(45deg,rgb(37,26,120),rgb(0,72,32));
+  	width:20%;
+  	padding:3%;
+  	color:rgb(255,255,255);
+  	font-size:120%;
+  	border:none;
+  	cursor:pointer;
+    transition:border-radius 700ms;
+}
+
+.submit_signup:hover
+{
+  border-radius:45px;
+}
+
+.submit_signup:focus,textarea
+{
+  outline:none;
+}
+
+#user_welcome
+{
+	width:50%;
+  	text-align:center;
+  	margin:3% auto;
+  	font-size:250%;
+  	font-weight:bold;
+  	color:rgb(0,72,32);
+}
+
+.submit_logout
+{
+	position:absolute;
+	top:65px;
+	left:90%;
+	font-size:100%;
+	border:solid rgb(255,255,255);
+  	background-image:-webkit-linear-gradient(45deg,tomato,rgb(32,32,72));
+  	padding:1%;
+  	color:rgb(255,255,255);
+  	cursor:pointer;
+  	font-weight:bold;
+}
+
+.error
+{
+  color:rgb(200,50,50);
+  font-size:100%;
+}
+
+.error a
+{
+	color:rgb(0,72,32);
+  text-decoration:none;
+}
+
+#success
+{
+	color:rgb(0,72,32);
+}
+
+.back_to_login
+{
+	
+	font-size:120%;
+	border:solid rgb(37,26,120);
+  	background-color:rgb(240,240,240);
+  	padding:2.5%;
+  	color:rgb(37,26,120);
+  	display:inline-block;
+  	font-weight:bold;
+    width:35%;
+    text-decoration: none;
+    transition:border-radius 700ms;
+}
+
+.back_to_login:hover
+{
+  border-radius:45px;
+}
+
+.back_to_login:focus,textarea
+{
+  outline:none;
+}
+
+.checkbox
+{
+  
+  width:7%;
+}
+
+#f_pwd
+{
+  color:rgb(200,50,50);
+  
+}
+
+#head
+{
+  color:rgb(255,255,255);
+  text-decoration: none;
+}
+
+
